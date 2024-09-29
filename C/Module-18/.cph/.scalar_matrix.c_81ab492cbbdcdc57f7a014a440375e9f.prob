@@ -1,0 +1,1 @@
+{"name":"Local: scalar_matrix","url":"d:\\Phitron\\Module-18\\scalar_matrix.c","tests":[{"id":1715763008643,"input":"3 3\n0 0 0\n0 0 0\n0 0 0","output":"Scalar Matrix"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Module-18\\scalar_matrix.c","group":"local","local":true}

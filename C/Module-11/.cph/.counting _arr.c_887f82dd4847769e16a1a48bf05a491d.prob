@@ -1,0 +1,1 @@
+{"name":"Local: counting _arr","url":"d:\\Phitron\\Module-11\\counting _arr.c","tests":[{"id":1714107793383,"input":"13\n5 0 1 0 0 2 3 4 5 6 0 2 3","output":"0 - 4\n1 - 1\n2 - 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Module-11\\counting _arr.c","group":"local","local":true}

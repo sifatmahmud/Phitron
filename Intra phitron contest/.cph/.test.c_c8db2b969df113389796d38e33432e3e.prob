@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"d:\\Phitron\\Intra phitron contest\\test.c","tests":[{"id":1717775532885,"input":"2\n5\n20 50 65 75 95\n2\n95 99","output":"95\n99"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Intra phitron contest\\test.c","group":"local","local":true}

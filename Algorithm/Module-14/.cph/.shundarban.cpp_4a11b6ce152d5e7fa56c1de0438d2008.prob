@@ -1,0 +1,1 @@
+{"name":"Local: shundarban","url":"d:\\Phitron\\Algorithm\\Module-14\\shundarban.cpp","tests":[{"id":1727292307393,"input":"5\nS P P P P\nT P T P P\nT P P P P\nP T E T T\nP T P T T","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Algorithm\\Module-14\\shundarban.cpp","group":"local","local":true}

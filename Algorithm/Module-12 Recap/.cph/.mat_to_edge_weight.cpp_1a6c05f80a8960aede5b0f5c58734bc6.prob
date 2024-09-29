@@ -1,0 +1,1 @@
+{"name":"Local: mat_to_edge_weight","url":"d:\\Phitron\\Algorithm\\Module-12 Recap\\mat_to_edge_weight.cpp","tests":[{"id":1727089205520,"input":"4\n0 10 -1 -1\n-1 0 11 -1\n-1 -1 0 12\n-1 13 12 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Algorithm\\Module-12 Recap\\mat_to_edge_weight.cpp","group":"local","local":true}

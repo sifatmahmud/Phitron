@@ -1,0 +1,1 @@
+{"name":"Local: dynamic_array","url":"d:\\Phitron\\C++ for DSA\\Module-02\\dynamic_array.cpp","tests":[{"id":1716179655067,"input":"3\n10 20 30","output":"10\n20\n30"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\C++ for DSA\\Module-02\\dynamic_array.cpp","group":"local","local":true}
