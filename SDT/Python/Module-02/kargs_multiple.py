@@ -13,7 +13,7 @@ def full_name(first, last):
 def famous_name(first, last, **addition):
     name = f'{first} {last}'
     print(addition)
-    # print(addition['title'])
+    print(addition['title'])
     return name
 
 name = famous_name(first='Taher', last='Ali', title="Hujur", addition="Shayokh")
