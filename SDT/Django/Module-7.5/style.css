@@ -1,0 +1,53 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.card {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px gray;
+  text-align: center;
+}
+
+.meal-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.meal-img {
+  height: 300px;
+}
+
+.meal-name {
+  color: rgb(253, 43, 78);
+  font-style: italic;
+}
+
+#submit-meal-btn {
+  width: 100px;
+  background-color: rgb(0, 197, 115);
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px gray;
+}
+
+#submit-meal-btn:hover {
+  background-color: rgb(41, 231, 73);
+}
+
+#input-meal {
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px gray;
+}
+
+.meal-details {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "ROBOTO";
+}
+
+header {
+  background-color: rgb(24, 24, 24);
+}
+
+.name-heading {
+  font-size: 80px;
+}
+
+.nav-img {
+  height: 100px;
+}
+
+.banner-img {
+  width: 300px;
+  height: 500px;
+}
+
+.l-icon {
+  font-size: 25px;
+}
+
+.porthead {
+  background: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+.portfolio {
+  background: rgb(24, 24, 24);
+}
+
+.project-card {
+  width: 800px;
+  border: 1px solid gray;
+}
+
+.car-img {
+  width: 400px;
+  height: 100px;
+}
+
+.skill {
+  background: #adadad;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.skill2 {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.expertise{
+  margin-left: 100px;
+}
+
+.Qualifications {
+  background: rgb(24, 24, 24);
+}
+
+/* .skills{
+  width: 500px;
+  border: 1px solid gray;
+  } */
+  
+  .education{
+    text-align: center;
+    padding-top: 200px;
+  }
+  
+  .contact-us{
+    background: rgb(24, 24, 24);
+  }
+  
+  /* .form-control{
+    background-color: rgb(24, 24, 24);
+    } */
+    
+    .form-container{
+      box-shadow: 10px 10px 10px 10px rgba(124, 120, 120, 0.2);;
+    }
+    
+    .send-btn{
+      background: #adadad;
+      color: aqua;
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+    }
+    
+    footer{
+      margin-top: 0.5px;
+      padding: 50px;
+      background: rgb(24, 24, 24);
+    }
+    
+    .footer-descrip{
+      color: white;
+  text-align: center;
+}
+

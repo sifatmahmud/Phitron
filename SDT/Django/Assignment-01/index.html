@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar container navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand w-50" href="#"><img class="nav-img" src="icons/logo.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="path/to/your/resume.pdf" download="your_resume_name.pdf"
+                                class="btn btn-info">Resume<i class="fa-solid fa-download"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="banner-container d-flex justify-content-around p-5">
+            <div class="banner-description">
+                <h1 class="text-info name-heading">Hi !</h1>
+                <h1 class="text-info name-heading">I am Gias Uddin</h1>
+                <h5 class="text-white">Web developer || React developer || Programmer</h5>
+
+                <div class="banner-details text-white mt-5">I am an enthusiastic JavaScript developer with knowing some
+                    frame
+                    work for the <br> frontend and the backend. I know Basic PHP and MySQL but basically a MERN <br>
+                    developer.
+                </div>
+
+                <div class="banner-icon d-flex gap-4 mt-5">
+                    <a href="github.com" class="btn"><i class="fa-brands fa-github l-icon"
+                            style="color: #17a2b8;"></i></a>
+                    <a href="github.com" class="btn"><i class="fa-brands fa-linkedin l-icon"
+                            style="color: #17a2b8;"></i></a>
+                    <a href="github.com" class="btn"><i class="fa-brands fa-youtube l-icon"
+                            style="color: #17a2b8;"></i></a>
+                    <a href="path/to/your/resume.pdf" download="your_resume_name.pdf" class="btn btn-info">Resume<i
+                            class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+            <div> <img class="banner-img" src="images/gias.jpg" alt=""></div>
+        </section>
+    </header>
+
+    <main>
+        <section id="Portfolio">
+            <div class="porthead">Portfolio</div>
+            <section class="portfolio d-flex justify-content-center">
+                <div class="project-card m-4">
+                    <div class="d-flex gap-3 container">
+                        <div id="carouselExample" class="carousel slide car-img">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="text-info">Online University <a href=""><i class="fa-solid fa-marker"
+                                        style="color: #17a2b8;"></i></a></h2>
+                            <p class="card-text text-white">This is Travel service Agency website. User can <br>login
+                                via
+                                Facebook sign-in, Google sign-in and <br>also can create a new account for use the <br>
+                                services. user can choice the service as he/she <br> want <br> User can choice the
+                                perfect
+                                vehicle as he/she want.<br> User Also can see his/her Current location <br> Firebase
+                                Authentication used in this website. <br> User can login via (Google, Facebook, Github)
+                                <br>
+                                also can create account.
+                            </p>
+                            <div class="skills d-flex gap-2">
+                                <button class="skill ">React</button>
+                                <button class="skill ">Firebase</button>
+                                <button class="skill ">HTML</button>
+                                <button class="skill">CSS</button>
+                                <button class="skill ">NODE</button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="portfolio d-flex justify-content-center">
+                <div class="project-card m-4">
+                    <div class="d-flex gap-3 container">
+                        <div id="carouselExample" class="carousel slide car-img">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="text-info">Online University <a href=""><i class="fa-solid fa-marker"
+                                        style="color: #17a2b8;"></i></a></h2>
+                            <p class="card-text text-white">This is Travel service Agency website. User can <br>login
+                                via
+                                Facebook sign-in, Google sign-in and <br>also can create a new account for use the <br>
+                                services. user can choice the service as he/she <br> want <br> User can choice the
+                                perfect
+                                vehicle as he/she want.<br> User Also can see his/her Current location <br> Firebase
+                                Authentication used in this website. <br> User can login via (Google, Facebook, Github)
+                                <br>
+                                also can create account.
+                            </p>
+                            <div class="skills d-flex gap-2">
+                                <button class="skill ">React</button>
+                                <button class="skill ">Firebase</button>
+                                <button class="skill ">HTML</button>
+                                <button class="skill">CSS</button>
+                                <button class="skill ">NODE</button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </section>
+
+        <section class="Qualifications d-flex justify-content-center p-4">
+            <div class="skills ">
+                <h2 class="expertise text-white">Expertise : </h2>
+                <button class="skill skill2">React.js</button>
+                <button class="skill ">Javascript</button>
+                <button class="skill ">NodeJs</button>
+                <button class="skill ">Firebase</button><br>
+                <button class="skill skill2">Express.js</button>
+                <button class="skill ">HTML</button>
+                <button class="skill ">Bootstrap</button>
+                <button class="skill mb-5">MongoDB</button>
+
+                <h2 class="expertise text-white">Comfortable : </h2>
+                <button class="skill skill2">SQL</button>
+                <button class="skill ">Redux</button>
+                <button class="skill ">Socket.io</button>
+                <button class="skill ">AWS</button><br>
+                <button class="skill skill2">Docker</button>
+                <button class="skill ">TypeScript</button>
+                <button class="skill mb-5">Next.js</button>
+
+                <h2 class="expertise text-white">Familiar : </h2>
+                <button class="skill skill2">C++</button>
+                <button class="skill ">Python</button>
+                <button class="skill ">Spring Boot</button>
+                <button class="skill mb-5">Networking</button><br>
+
+                <h2 class="expertise text-white">Tools : </h2>
+                <button class="skill skill2">VS CODE</button>
+                <button class="skill ">JIRA</button>
+                <button class="skill ">Trello</button>
+                <button class="skill mb-5">Git</button><br>
+            </div>
+            <div class="education ">
+                <h1 class="ed-heading text-info">My Education</h1>
+                <h5 class="ed-descrip text-white">B.Sc in Software Engineering, <br> Yunnan University ( Kunming,
+                    Yunnan, China )</h5>
+            </div>
+        </section>
+
+        <section class="contact-us p-5">
+            <h1 class="text-center p-5 text-white">Contact with Me</h1>
+            <div class="contact-us-container row d-flex justify-content-center">
+                <div class="form-container  w-25 col-6">
+                    <input type="text" class="form-control mb-2 mt-2 w-50 m-auto" id="exampleFormControlInput1"
+                        placeholder="please type your name">
+                    <input type="email" class="form-control mb-2 w-50 m-auto" id="exampleFormControlInput1"
+                        placeholder="please type you Email">
+                    <textarea class="form-control mb-2 w-50 m-auto" id="exampleFormControlTextarea1" rows="3" placeholder="type your message"></textarea>
+                    <div class="btn d-flex justify-content-center">
+                        <button type="submit" class="send-btn">send</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-descrip">
+            Copyright @ 2021 | gias Uddin <br>
+            kunming, yunnan, china
+        </div>
+        <div class="footer-icons">
+            <div class="banner-icon d-flex gap-4 mt-5 justify-content-center">
+                <a href="github.com" class="btn"><i class="fa-brands fa-github l-icon"
+                        style="color: #17a2b8;"></i></a>
+                <a href="github.com" class="btn"><i class="fa-brands fa-linkedin l-icon"
+                        style="color: #17a2b8;"></i></a>
+                <a href="github.com" class="btn"><i class="fa-brands fa-youtube l-icon"
+                        style="color: #17a2b8;"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- script cdn link online -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
