@@ -53,7 +53,6 @@ const displayMeal = (meals) => {
 
 
 
-// search_meal_by_name("salad")
 
 document.getElementById("submit-meal-btn").onclick = () => {
 

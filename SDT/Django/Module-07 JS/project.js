@@ -26,7 +26,7 @@ const displayProduct = (products) => {
         </h5>
         <h3>price : ${product.price}</h3>
         <p>${product.description.slice(0, 50)}</p>
-        <button onclick-"singleProduct('${product.id}')">Details</button>
+        <button onclick="singleProduct('${product.id}')">Details</button>
         <button onclick="handleAddToCart('${product.title.slice(0, 10)}', '${product.price}')">Add To Cart</button>
         `;
 
